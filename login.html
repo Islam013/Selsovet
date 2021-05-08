@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="https://kit.fontawesome.com/d6c6a14e85.js" crossorigin="anonymous"></script>
+	<title>Администрация МО СП "сельсовет Хели-Пенджикский"</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="sim-slider-styles.css">
+    <script src="js/script.js"></script>
+
+</head>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    
+
+    
+    </script>
+    <style type="text/css">
+        .table-pg{width:auto}
+
+        a{
+    text-decoration: none;
+  }
+  form{
+      width: 450px;
+      min-height: 460px;
+      background-color:rgb(250, 250, 250);
+      position: absolute;
+      left: 33%;
+      top: 20%;
+      border-radius: 5%;
+      margin-bottom: 9%;
+      font-family: Arial, Helvetica, sans-serif;
+     
+      
+  }
+  .container{
+    
+      width: 280px;
+      min-height: 460px;
+      
+      position: absolute;
+      left: 16%;
+      top: 10%;
+    
+  }
+  label{
+    color: #5e5e5e;
+    padding: 5px;
+    
+  }
+  
+    input{
+        width: 280px;
+        height: 40px;
+        border-radius: 10px;
+        border: 2px solid yellowgreen;
+        padding: 5px;
+
+    }
+    .butt{
+
+        width: 295px;
+        height: 50px;
+        background-color: yellowgreen;
+        border-radius:10px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    .butt:hover{
+        opacity:.8;
+        transition:.3s;
+    }
+    .avt{
+        text-align: center;
+        color: rgb(82, 80, 80);
+    }
+    .but{
+      background-color:yellowgreen;
+    }
+    li{
+      border-radius:10px;
+    }
+    .zareg i{
+      font-size: 13px;
+      color: rgb(146, 70, 86);
+      transition: .3s;
+    }
+    .zareg i:hover{
+      opacity: 0.6;
+    }
+    .zareg a{
+      color: rgb(13, 149, 202);
+      transition: .3s;
+    }
+    .zareg a:hover{
+      opacity: 0.6;
+    }
+    .but{
+      font-size: 18px;
+      color: rgb(82, 80, 80);
+    }
+  
+    </style>
+</head>
+<body>
+  
+</header>
+<form action="handler.php" method="post">
+    <container class="container">
+        <h1 class="avt">Авторизация</h1>
+        <br>
+        <div class="group">
+        <label for="log">Логин</label><br>
+        <input type="text" placeholder="Ваш логин" name="login" required>
+        </div>
+<br>         
+        <div class="group">
+        <label for="psw">Пароль</label><br>
+        <input type="password" placeholder="Ваш пароль" name="password" required>
+        </div>
+<br>
+    <div class="butt">
+      <input class="but" type="submit" value="Войти">
+    </div>
+<br>
+    <div class="zareg">
+    <a href="registr.html">Зарегистрироваться</a><br><br>
+    <a href="index.html"><i class="fa fa-backward" aria-hidden="true"></i> <i>Вернуться на главную</i></a>
+    </div>
+    </container>
+
+</form>
+
+<footer>
+</footer>
+</body>
+</html>
